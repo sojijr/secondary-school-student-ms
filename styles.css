@@ -11,18 +11,18 @@ body {
 
 .main-container {
   display: flex;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
 }
 
 .login-container {
   background-color: #fff;
-  padding: 20px;
+  padding: 30px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   flex: 1;
-  margin-right: 10px;
+  width: 420px;
 }
 
 .school-box {
@@ -31,7 +31,7 @@ body {
   padding: 20px;
   border-radius: 5px;
   text-align: center;
-  width: fit-content;
+  width: 250px;
   display: flex;
   align-items: center;
 }
@@ -39,43 +39,71 @@ body {
 .login-form {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
 }
 
 .input-container {
   display: flex;
   align-items: center;
   border: 1px solid #ccc;
-  border-radius: 3px;
-  padding: 10px;
-  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 18px;
 }
 
 .input-container label {
-  margin-right: 10px;
+  margin-left: 5px;
+  width: 30px;
+  font-size: 18px;
 }
 
 .input-container input {
   border: none;
   flex: 1;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.fa-sign-in-alt{
+  position: relative;
+  right: 15px;
+}
+
+#password-toggle {
+  position: relative;
+  top: 8px;
+  right: 30px;
+  transform: translateY(-50%);
+  cursor: pointer;
 }
 
 button {
-  padding: 10px;
+  padding: 15px;
   background-color: #007bff;
   color: #fff;
   border: none;
   border-radius: 3px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  font-size: 18px;
 }
 
 button:hover {
   background-color: #0056b3;
 }
 
+.login-btn{
+  position: relative;
+  top: 10px;
+  width: 150px;
+}
+
 .forgot-password {
+  position: relative;
+  bottom: 34px;
+  left: 95px;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .forgot-password a {
