@@ -41,12 +41,22 @@ body {
   flex-direction: column;
 }
 
-input {
-  padding: 15px;
-  margin-bottom: 10px;
+.input-container {
+  display: flex;
+  align-items: center;
   border: 1px solid #ccc;
   border-radius: 3px;
-  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.input-container label {
+  margin-right: 10px;
+}
+
+.input-container input {
+  border: none;
+  flex: 1;
 }
 
 button {
@@ -61,4 +71,18 @@ button {
 
 button:hover {
   background-color: #0056b3;
+}
+
+.forgot-password {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.forgot-password a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
 }

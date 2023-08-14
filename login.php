@@ -15,9 +15,19 @@
         <div class="login-container">
             <h1>Login</h1>
             <form class="login-form">
-                <input type="text" id="username" class="form-control custom-input" placeholder="Username" required>
-                <input type="password" id="password" class="form-control custom-input" placeholder="Password" required>
+                <div class="input-container">
+                    <label for="username"><i class="fas fa-user"></i></label>
+                    <input type="text" id="username" class="form-control custom-input" placeholder="Username" required>
+                </div>
+                <div class="input-container">
+                    <label for="password"><i class="fas fa-lock"></i></label>
+                    <input type="password" id="password" class="form-control custom-input" placeholder="Password"
+                        required>
+                </div>
                 <button type="submit" class="btn btn-primary">Login</button>
+                <div class="forgot-password">
+                    <a href="#">Forgot Password?</a>
+                </div>
             </form>
         </div>
         <div class="school-box">
