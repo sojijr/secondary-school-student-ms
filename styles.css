@@ -72,7 +72,8 @@ body {
 #password-toggle {
   position: relative;
   top: 8px;
-  right: 30px;
+  left: 5px;
+  width: 30px;
   transform: translateY(-50%);
   cursor: pointer;
 }
@@ -113,4 +114,33 @@ button:hover {
 
 .forgot-password a:hover {
   text-decoration: underline;
+}
+
+/* ... mobile responsiveness ... */
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+  }
+
+  .login-container {
+    position: relative;
+    bottom: 90px;
+    right: 12px;
+    width: 85%;
+    margin-right: 0;
+  }
+
+  .school-box {
+   display: none;
+  }
+
+  .login-btn, .forgot-password{
+    width: 50%;
+    margin-bottom: -20px;
+  }
+
+  .forgot-password {
+    bottom: 21px;
+    left: 120px;
+  }
 }
