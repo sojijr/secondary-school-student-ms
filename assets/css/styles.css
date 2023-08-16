@@ -25,17 +25,6 @@ body {
   width: 420px;
 }
 
-.school-box {
-  background-color: #007bff;
-  color: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  text-align: center;
-  width: 250px;
-  display: flex;
-  align-items: center;
-}
-
 .login-form {
   display: flex;
   flex-direction: column;
@@ -64,6 +53,37 @@ body {
   font-size: 14px;
 }
 
+.school-box {
+  background-color: #090e53;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.school-info {
+  text-align: center;
+}
+
+.school-info img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.school-info h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.school-info p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
 .fa-sign-in-alt{
   position: relative;
   right: 15px;
@@ -80,7 +100,7 @@ body {
 
 button {
   padding: 15px;
-  background-color: #007bff;
+  background-color: #090e53;
   color: #fff;
   border: none;
   border-radius: 3px;
@@ -89,14 +109,15 @@ button {
   font-size: 18px;
 }
 
-button:hover {
-  background-color: #0056b3;
-}
-
 .login-btn{
+  background-color: #090e53;
   position: relative;
   top: 10px;
   width: 150px;
+}
+
+.login-btn:hoverr{
+  background-color: #0e1581;
 }
 
 .forgot-password {
@@ -108,7 +129,7 @@ button:hover {
 }
 
 .forgot-password a {
-  color: #007bff;
+  color: #090e53;
   text-decoration: none;
 }
 
