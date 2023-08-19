@@ -5,5 +5,5 @@
  #### Login pages:
 
 <p align="center">
-<img src="#" height="auto" width="80%">
+<img src="https://github.com/sojijr/secondary-school-student-ms/blob/main/assets/images/loginPreview.png" height="auto" width="80%">
 </p>
