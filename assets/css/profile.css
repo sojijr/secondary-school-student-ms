@@ -1,0 +1,90 @@
+.profile-header {
+    background-color: #090e53;
+    color: #fff;
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+}
+
+.student-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 40px;
+}
+
+.student-name {
+    color: white;
+    font-size: 18px;
+    margin-right: 7px;
+}
+
+.logo {
+    max-width: 100px;
+    margin-left: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 18px;
+}
+
+.demo-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #090e53;
+    min-width: 160px;
+    right: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #0e1581;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.body-content {
+    margin-top: 70px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .student-info {
+        margin-right: 0;
+        justify-content: flex-end;
+    }
+}
