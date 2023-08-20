@@ -14,6 +14,15 @@
 </head>
 
 <body>
+    <nav class="sidebar">
+        <ul>
+            <li><a href="#"><i class="fas fa-home"></i> Dashboard</a></li>
+            <li><a href="#"><i class="fas fa-user"></i> Personal Details</a></li>
+            <li><a href="#"><i class="fas fa-graduation-cap"></i> Academic Details</a></li>
+            <li><a href="#"><i class="fas fa-money-bill"></i> Finance</a></li>
+        </ul>
+    </nav>
+
     <header class="profile-header">
         <img src="../../assets/images/logo.png" alt="School Logo" class="logo">
         <div class="student-info">
