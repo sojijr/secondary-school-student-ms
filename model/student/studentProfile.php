@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="sidebar">
+    <nav class="sidebar" id="sidebar">
         <ul>
             <li><a href="#"><i class="fas fa-home"></i> Dashboard</a></li>
             <li><a href="#"><i class="fas fa-user"></i> Personal Details</a></li>
@@ -24,6 +24,9 @@
     </nav>
 
     <header class="profile-header">
+        <div class="sidebar-toggle" id="sidebarToggle">
+            <i class="fas fa-bars"></i>
+        </div>
         <img src="../../assets/images/logo.png" alt="School Logo" class="logo">
         <div class="student-info">
             <span class="student-name">John Doe</span>
@@ -58,13 +61,13 @@
                     <td class="notification-title">Notification 2</td>
                     <td class="notification-notice">Nulla ac justo hendrerit.</td>
                 </tr>
-                <!-- Add more rows as needed -->
             </tbody>
         </table>
     </div>
     <!-- Profile content goes here -->
 
-    <script src="assets/js/script.js"></script>
+    <script src="../../assets/js/studentProfile.js"></script>
+
 </body>
 
 </html>

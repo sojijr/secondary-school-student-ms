@@ -95,6 +95,10 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
+.sidebar-toggle {
+    display: none;
+}
+
 .sidebar ul {
     list-style-type: none;
     padding: 0;
@@ -177,5 +181,24 @@
     .student-info {
         margin-right: 0;
         justify-content: flex-end;
+    }
+
+    .sidebar-toggle {
+        display: block;
+        position: fixed;
+        top: 30px;
+        left: 20px;
+        font-size: 24px;
+        color: #fff;
+        cursor: pointer;
+        z-index: 1000;
+    }
+
+    .sidebar {
+    display: none;
+    }
+    
+    .sidebar-active {
+        display: block;
     }
 }
