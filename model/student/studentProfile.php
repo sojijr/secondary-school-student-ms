@@ -39,6 +39,29 @@
             </div>
         </div>
     </header>
+
+    <div class="notification-box">
+        <h2 class="notification-heading">NOTIFICATION</h2>
+        <table class="timetable">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Notice</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="notification-title">Notification 1</td>
+                    <td class="notification-notice">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+                </tr>
+                <tr>
+                    <td class="notification-title">Notification 2</td>
+                    <td class="notification-notice">Nulla ac justo hendrerit.</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </div>
     <!-- Profile content goes here -->
 
     <script src="assets/js/script.js"></script>
