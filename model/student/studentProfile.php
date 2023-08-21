@@ -43,7 +43,7 @@
         </div>
     </header>
 
-    <div class="notification-box">
+    <div class="notification-box" id="notification-box">
         <h2 class="notification-heading">NOTIFICATION</h2>
         <table class="timetable">
             <thead>

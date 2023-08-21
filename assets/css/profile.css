@@ -183,6 +183,10 @@
         justify-content: flex-end;
     }
 
+    .sidebar {
+        height: 240px;
+    }
+
     .sidebar-toggle {
         display: block;
         position: fixed;
@@ -197,8 +201,20 @@
     .sidebar {
     display: none;
     }
-    
+
     .sidebar-active {
         display: block;
+    }
+
+    .notification-box {
+        top: 100px;
+        left: 20px;
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 90%;
+    }
+
+    .notification-box-toggle{
+        top: 350px;
     }
 }
