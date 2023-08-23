@@ -17,11 +17,19 @@
     <nav class="sidebar" id="sidebar">
         <ul>
             <li><a href="./studentProfile"><i class="fas fa-home"></i> Dashboard</a></li>
-            <li><a href="#" class="active"><i class="fas fa-user"></i> Personal Details</a></li>
-            <li><a href="#"><i class="fas fa-graduation-cap"></i> Academic Details</a></li>
+            <li><a href="./studentPersonalDetails" class="active"><i class="fas fa-user"></i> Personal Details</a></li>
+            <li>
+                <a href="#" class="dropdown-link"><i class="fas fa-graduation-cap"></i> Academic Details <i
+                        class="fa fa-chevron-left" id="dropdown-i" aria-hidden="true"></i>
+                    <ul class="dropdown">
+                        <li><a href="#">Current Subjects Offered</a></li>
+                        <li><a href="#">Term Results</a></li>
+                    </ul>
+            </li>
             <li><a href="#"><i class="fas fa-money-bill"></i> Finance</a></li>
         </ul>
     </nav>
+
 
     <header class="profile-header">
         <div class="sidebar-toggle" id="sidebarToggle">
@@ -43,7 +51,7 @@
         </div>
     </header>
 
-    <div class="student-details-box" id="studentDetailsBox">
+    <div class="student-details-box" id="student-details-box">
         <div class="navbar-box">
             <h2 class="navbar-heading">Student Details</h2>
         </div>

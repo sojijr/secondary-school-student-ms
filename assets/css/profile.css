@@ -84,7 +84,7 @@
 .sidebar {
     background-color: white;
     color: #2c3e50;
-    width: 200px;
+    width: 210px;
     height: 310px;
     position: fixed;
     top: 100px;
@@ -120,7 +120,20 @@
 
 .sidebar a.active{
     background-color: #f0f0f0;
-  }  
+  } 
+  
+  .sidebar-dropdown{
+    height: 330px;
+    width: 210px;
+  }
+
+.dropdown {
+    display: none;
+}
+
+.dropdown.active {
+    display: block;
+}
 
 .notification-box {
     background-color: #fff;
@@ -314,13 +327,20 @@
     }
 
     .student-details-box {
-        top: 350px;
+        top: 130px;
         left: 20px;
         max-width: 90%;
     }
 
-    /* Add styles to show/hide the student details box */
-    .student-details-box-hidden {
-        display: none;
+    .student-details-box-toggle {
+        top: 370px;
+    }
+
+    .student-details-heading {
+        font-size: 14px;
+    }
+
+    .table-buttons {
+        gap: 7px;
     }
 }
