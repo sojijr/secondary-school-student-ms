@@ -118,6 +118,10 @@
     background-color: #f0f0f0;
 }
 
+.sidebar a.active{
+    background-color: #f0f0f0;
+  }  
+
 .notification-box {
     background-color: #fff;
     position: fixed;
@@ -176,6 +180,97 @@
     width: 70%;
 }
 
+.student-details-box {
+    background-color: #fff;
+    position: fixed;
+    top: 130px;
+    left: 320px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 1100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.navbar-box {
+    position: relative;
+    background-color: #090e53;
+    color: #fff;
+    width: 130px;
+    top: -18px;
+    left: -20px;
+    padding: 10px 15px;
+    border-radius: 5px 5px 0 0;
+    margin-top: -40px;
+    border: 1px solid #ccc;
+}
+
+.navbar-heading {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.student-details-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+    background-color: #090e53;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.refresh-button,
+.excel-button,
+.pdf-button {
+    background-color: #090e53;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.refresh-button:hover,
+.excel-button:hover,
+.pdf-button:hover {
+    background-color: #0e1581;
+}
+
+
+.student-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 10px;
+}
+
+.student-details-table tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.student-details-table td {
+    padding: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.student-details-table td:last-child {
+    font-weight: normal;
+}
+
+
 /* Responsive Styles */
 @media (max-width: 768px) {
     .student-info {
@@ -216,5 +311,16 @@
 
     .notification-box-toggle{
         top: 350px;
+    }
+
+    .student-details-box {
+        top: 350px;
+        left: 20px;
+        max-width: 90%;
+    }
+
+    /* Add styles to show/hide the student details box */
+    .student-details-box-hidden {
+        display: none;
     }
 }
