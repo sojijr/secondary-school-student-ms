@@ -16,13 +16,12 @@
  
 // Get the dropdown link and the dropdown itself
 const dropdownLink = document.querySelector('.dropdown-link');
-const dropdown = document.querySelector('.dropdown');
+const dropdown = document.querySelector('.dropdown-sidebar');
 
 // Toggle the dropdown when the link is clicked
 dropdownLink.addEventListener('click', () => {
     dropdown.classList.toggle('active');
     sidebar.classList.toggle('sidebar-dropdown');
-    chevronBracket.classList.toggle('fa fa-chevron-down');
 });
 
 dropdownLink.addEventListener('click', () => {

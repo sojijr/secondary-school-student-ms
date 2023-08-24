@@ -21,7 +21,7 @@
             <li>
                 <a href="#" class="dropdown-link"><i class="fas fa-graduation-cap"></i> Academic Details <i
                         class="fa fa-chevron-left" id="dropdown-i" aria-hidden="true"></i>
-                    <ul class="dropdown">
+                    <ul class="dropdown-sidebar">
                         <li><a href="#">Current Subjects Offered</a></li>
                         <li><a href="#">Term Results</a></li>
                     </ul>

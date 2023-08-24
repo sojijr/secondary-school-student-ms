@@ -118,20 +118,20 @@
     background-color: #f0f0f0;
 }
 
-.sidebar a.active{
+.sidebar a.active {
     background-color: #f0f0f0;
   } 
   
-  .sidebar-dropdown{
+.sidebar-dropdown {
     height: 330px;
     width: 210px;
   }
 
-.dropdown {
+.dropdown-sidebar {
     display: none;
 }
 
-.dropdown.active {
+.dropdown-sidebar.active {
     display: block;
 }
 
@@ -285,7 +285,7 @@
 
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .student-info {
         margin-right: 0;
         justify-content: flex-end;
