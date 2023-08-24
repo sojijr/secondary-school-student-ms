@@ -265,18 +265,33 @@
 
 .student-details-table {
     width: 100%;
+    border: 2px solid #ccc;
     border-collapse: collapse;
-    border-spacing: 10px;
 }
 
-.student-details-table tr {
+.student-details-table th,
+.student-details-table td {
+    padding: 10px;
+    text-align: left;
     border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc; /* Add right border to separate columns */
+}
+
+.student-details-table th {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    background-color: #f0f0f0;
+    border-top: 2px solid #ccc;
 }
 
 .student-details-table td {
-    padding: 10px;
-    font-weight: bold;
-    text-align: left;
+    font-size: 16px;
+    color: #555;
+}
+
+.student-details-table tbody tr {
+    border-bottom: 1px solid #ccc;
 }
 
 .student-details-table td:last-child {

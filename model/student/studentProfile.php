@@ -23,7 +23,7 @@
                         class="fa fa-chevron-left" id="dropdown-i" aria-hidden="true"></i></a>
                 <ul class="dropdown-sidebar">
                     <li><a href="./studentSubjectOffered">Current Subjects Offered</a></li>
-                    <li><a href="#">Term Results</a></li>
+                    <li><a href="./studentResult">Term Results</a></li>
                 </ul>
             </li>
             <li><a href="#"><i class="fas fa-money-bill"></i> Finance</a></li>

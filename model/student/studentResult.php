@@ -22,8 +22,8 @@
                 <a href="#" class="dropdown-link"><i class="fas fa-graduation-cap"></i> Academic Details <i
                         class="fa fa-chevron-down" id="dropdown-i" aria-hidden="true"></i>
                     <ul class="dropdown-sidebar active">
-                        <li><a href="./studentSubjectOffered" class="active">Current Subjects Offered</a></li>
-                        <li><a href="./studentResult">Term Results</a></li>
+                        <li><a href="./studentSubjectOffered">Current Subjects Offered</a></li>
+                        <li><a href="./studentResult" class="active">Term Results</a></li>
                     </ul>
             </li>
             <li><a href="#"><i class="fas fa-money-bill"></i> Finance</a></li>
@@ -55,7 +55,7 @@
         <div class="navbar-box">
             <h2 class="navbar-heading">Subject List</h2>
         </div>
-        <h2 class="student-details-heading">TERM SUBJECT LIST
+        <h2 class="student-details-heading">CURRENT TERM LIST
             <div class="table-buttons">
                 <button class="refresh-button"><i class="fas fa-sync-alt"></i> Refresh</button>
                 <button class="excel-button"><i class="fas fa-file-excel"></i> Excel</button>
@@ -67,21 +67,29 @@
                 <tr>
                     <th>Course ID</th>
                     <th>Course Title</th>
+                    <th>Score</th>
+                    <th>Grade</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>101</td>
                     <td>Mathematics</td>
+                    <td>95</td>
+                    <td>A+</td>
                 </tr>
                 <tr>
                     <td>102</td>
                     <td>Science</td>
+                    <td>88</td>
+                    <td>A</td>
                 </tr>
+                <!-- Add more rows as needed -->
             </tbody>
         </table>
 
     </div>
+    <!-- Profile content goes here -->
 
     <script src="../../assets/js/studentProfile.js"></script>
 
