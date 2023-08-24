@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/images/favicon.png" rel="icon">
+    <link href="../../assets/images/favicon.png" rel="icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="../../assets/css/styles.css">
     <link rel="stylesheet" href="../../assets/css/profile.css">
-    <title>Student Profile</title>
+    <title>Personal Details</title>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
                 <a href="#" class="dropdown-link"><i class="fas fa-graduation-cap"></i> Academic Details <i
                         class="fa fa-chevron-left" id="dropdown-i" aria-hidden="true"></i>
                     <ul class="dropdown-sidebar">
-                        <li><a href="#">Current Subjects Offered</a></li>
+                        <li><a href="./studentSubjectOffered">Current Subjects Offered</a></li>
                         <li><a href="#">Term Results</a></li>
                     </ul>
             </li>

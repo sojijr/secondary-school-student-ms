@@ -10,21 +10,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="../../assets/css/styles.css">
     <link rel="stylesheet" href="../../assets/css/profile.css">
-    <title>Student Profile</title>
+    <title>Current Subjects Offered</title>
 </head>
 
 <body>
     <nav class="sidebar" id="sidebar">
         <ul>
-            <li><a href="#" class="active"><i class="fas fa-home"></i> Dashboard</a></li>
+            <li><a href="./studentProfile"><i class="fas fa-home"></i> Dashboard</a></li>
             <li><a href="./studentPersonalDetails"><i class="fas fa-user"></i> Personal Details</a></li>
             <li>
                 <a href="#" class="dropdown-link"><i class="fas fa-graduation-cap"></i> Academic Details <i
-                        class="fa fa-chevron-left" id="dropdown-i" aria-hidden="true"></i></a>
-                <ul class="dropdown-sidebar">
-                    <li><a href="./studentSubjectOffered">Current Subjects Offered</a></li>
-                    <li><a href="#">Term Results</a></li>
-                </ul>
+                        class="fa fa-chevron-left" id="dropdown-i" aria-hidden="true"></i>
+                    <ul class="dropdown-sidebar">
+                        <li><a href="./studentSubjectOffered" class="active">Current Subjects Offered</a></li>
+                        <li><a href="#">Term Results</a></li>
+                    </ul>
             </li>
             <li><a href="#"><i class="fas fa-money-bill"></i> Finance</a></li>
         </ul>
@@ -51,25 +51,26 @@
         </div>
     </header>
 
-    <div class="notification-box" id="notification-box">
-        <h2 class="notification-heading">NOTIFICATION</h2>
-        <table class="timetable">
-            <thead>
-                <tr>
-                    <th>Title</th>
-                    <th>Notice</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="notification-title">Notification 1</td>
-                    <td class="notification-notice">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-                </tr>
-                <tr>
-                    <td class="notification-title">Notification 2</td>
-                    <td class="notification-notice">Nulla ac justo hendrerit.</td>
-                </tr>
-            </tbody>
+    <div class="student-details-box" id="student-details-box">
+        <div class="navbar-box">
+            <h2 class="navbar-heading">Subject List</h2>
+        </div>
+        <h2 class="student-details-heading">CURRENT TERM LIST
+            <div class="table-buttons">
+                <button class="refresh-button"><i class="fas fa-sync-alt"></i> Refresh</button>
+                <button class="excel-button"><i class="fas fa-file-excel"></i> Excel</button>
+                <button class="pdf-button"><i class="fas fa-file-pdf"></i> Pdf</button>
+            </div>
+        </h2>
+        <table class="student-details-table">
+            <tr>
+                <td><strong>Name:</strong></td>
+                <td>John Doe</td>
+            </tr>
+            <tr>
+                <td><strong>ID Number:</strong></td>
+                <td>123456</td>
+            </tr>
         </table>
     </div>
     <!-- Profile content goes here -->
