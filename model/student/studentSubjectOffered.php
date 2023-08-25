@@ -57,29 +57,31 @@
         </div>
         <h2 class="student-details-heading">TERM SUBJECT LIST
             <div class="table-buttons">
-                <button class="refresh-button"><i class="fas fa-sync-alt"></i> Refresh</button>
+                <button class="refresh-button" id="refresh-button"><i class="fas fa-sync-alt"></i> Refresh</button>
                 <button class="excel-button"><i class="fas fa-file-excel"></i> Excel</button>
                 <button class="pdf-button"><i class="fas fa-file-pdf"></i> Pdf</button>
             </div>
         </h2>
-        <table class="student-details-table">
-            <thead>
-                <tr>
-                    <th>Course ID</th>
-                    <th>Course Title</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>101</td>
-                    <td>Mathematics</td>
-                </tr>
-                <tr>
-                    <td>102</td>
-                    <td>Science</td>
-                </tr>
-            </tbody>
-        </table>
+        <div id="refresh-content">
+            <table class="student-details-table">
+                <thead>
+                    <tr>
+                        <th>Course ID</th>
+                        <th>Course Title</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>101</td>
+                        <td>Mathematics</td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>Science</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
     </div>
 

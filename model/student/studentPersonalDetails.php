@@ -57,21 +57,23 @@
         </div>
         <h2 class="student-details-heading">STUDENT DETAILS
             <div class="table-buttons">
-                <button class="refresh-button"><i class="fas fa-sync-alt"></i> Refresh</button>
+                <button class="refresh-button" id="refresh-button"><i class="fas fa-sync-alt"></i> Refresh</button>
                 <button class="excel-button"><i class="fas fa-file-excel"></i> Excel</button>
                 <button class="pdf-button"><i class="fas fa-file-pdf"></i> Pdf</button>
             </div>
         </h2>
-        <table class="student-details-table">
-            <tr>
-                <td><strong>Name:</strong></td>
-                <td>John Doe</td>
-            </tr>
-            <tr>
-                <td><strong>ID Number:</strong></td>
-                <td>123456</td>
-            </tr>
-        </table>
+        <div id="refresh-content">
+            <table class="student-details-table">
+                <tr>
+                    <td><strong>Name:</strong></td>
+                    <td>John Doe</td>
+                </tr>
+                <tr>
+                    <td><strong>ID Number:</strong></td>
+                    <td>123456</td>
+                </tr>
+            </table>
+        </div>
     </div>
     <!-- Profile content goes here -->
 

@@ -1,8 +1,14 @@
- const sidebarToggle = document.getElementById('sidebarToggle');
- const sidebar = document.getElementById('sidebar');
- const notificationBox = document.getElementById('notification-box')
- const studentDetailsBox = document.getElementById('student-details-box')
- const chevronBracket = document.getElementById('dropdown-i')
+const sidebarToggle = document.getElementById('sidebarToggle');
+const sidebar = document.getElementById('sidebar');
+const notificationBox = document.getElementById('notification-box')
+const studentDetailsBox = document.getElementById('student-details-box')
+
+const dropdownLink = document.querySelector('.dropdown-link');
+const dropdown = document.querySelector('.dropdown-sidebar');
+const chevronBracket = document.getElementById('dropdown-i')
+
+const refreshButton = document.getElementById('refresh-button');
+const refreshContent = document.getElementById('refresh-content');
 
 //sidebar toggle
  sidebarToggle.addEventListener('click', () => {
@@ -13,10 +19,6 @@
  sidebarToggle.addEventListener('click', () => {
     studentDetailsBox.classList.toggle('student-details-box-toggle');
  })
- 
-// Get the dropdown link and the dropdown itself
-const dropdownLink = document.querySelector('.dropdown-link');
-const dropdown = document.querySelector('.dropdown-sidebar');
 
 // Toggle the dropdown when the link is clicked
 dropdownLink.addEventListener('click', () => {
@@ -27,4 +29,9 @@ dropdownLink.addEventListener('click', () => {
 dropdownLink.addEventListener('click', () => {
     chevronBracket.classList.toggle('fa-chevron-left');
     chevronBracket.classList.toggle('fa-chevron-down');
+});
+
+//refresh page content
+refreshButton.addEventListener('click', function() {
+    location.reload();
 });

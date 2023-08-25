@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="../../assets/css/styles.css">
     <link rel="stylesheet" href="../../assets/css/profile.css">
-    <title>Current Subjects Offered</title>
+    <title>Student Result</title>
 </head>
 
 <body>
@@ -53,40 +53,41 @@
 
     <div class="student-details-box" id="student-details-box">
         <div class="navbar-box">
-            <h2 class="navbar-heading">Subject List</h2>
+            <h2 class="navbar-heading">Student Result</h2>
         </div>
-        <h2 class="student-details-heading">CURRENT TERM LIST
+        <h2 class="student-details-heading">TERM RESULT
             <div class="table-buttons">
-                <button class="refresh-button"><i class="fas fa-sync-alt"></i> Refresh</button>
+                <button class="refresh-button" id="refresh-button"><i class="fas fa-sync-alt"></i> Refresh</button>
                 <button class="excel-button"><i class="fas fa-file-excel"></i> Excel</button>
                 <button class="pdf-button"><i class="fas fa-file-pdf"></i> Pdf</button>
             </div>
         </h2>
-        <table class="student-details-table">
-            <thead>
-                <tr>
-                    <th>Course ID</th>
-                    <th>Course Title</th>
-                    <th>Score</th>
-                    <th>Grade</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>101</td>
-                    <td>Mathematics</td>
-                    <td>95</td>
-                    <td>A+</td>
-                </tr>
-                <tr>
-                    <td>102</td>
-                    <td>Science</td>
-                    <td>88</td>
-                    <td>A</td>
-                </tr>
-                <!-- Add more rows as needed -->
-            </tbody>
-        </table>
+        <div id="refresh-content">
+            <table class="student-details-table">
+                <thead>
+                    <tr>
+                        <th>Course ID</th>
+                        <th>Course Title</th>
+                        <th>Score</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>101</td>
+                        <td>Mathematics</td>
+                        <td>60</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>Science</td>
+                        <td>88</td>
+                        <td>A</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
     </div>
     <!-- Profile content goes here -->
