@@ -22,8 +22,9 @@
                 <a href="#" class="dropdown-link"><i class="fas fa-graduation-cap"></i> Academic Details <i
                         class="fa fa-chevron-down" id="dropdown-i" aria-hidden="true"></i>
                     <ul class="dropdown-sidebar active">
-                        <li><a href="./studentSubjectOffered" class="active">Current Subjects Offered</a></li>
-                        <li><a href="./studentResults">Results</a></li>
+                        <li><a href="./studentSubjectOffered" class="active"><i class="fas fa-book-open"></i> Current
+                                Subjects Offered</a></li>
+                        <li><a href="./studentResults"><i class="fas fa-file"></i> Results</a></li>
                     </ul>
             </li>
             <li><a href="#"><i class="fas fa-money-bill"></i> Finance</a></li>
