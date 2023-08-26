@@ -212,7 +212,7 @@
     background-color: #090e53;
     color: #fff;
     width: 130px;
-    top: -18px;
+    top: -16px;
     left: -20px;
     padding: 10px 15px;
     border-radius: 5px 5px 0 0;
@@ -220,12 +220,35 @@
     border: 1px solid #ccc;
 }
 
+.navbar-body-box, .navbar-header-box {
+    position: relative;
+    background-color: #090e53;
+    color: #fff;
+    height: 30px;
+    width: 120px;
+    top: -20px;
+    left: -20px;
+    padding: 10px 15px;
+    border-radius: 5px 5px 0 0;
+    margin-top: -30px;
+    border: 1px solid #ccc;
+}
+
+.navbar-header-box{
+    width: 90px;
+    top: -48px;
+}
+
+.navbar-header-box a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .navbar-heading {
     font-size: 13px;
     font-weight: bold;
     margin: 0;
 }
-
 
 .student-details-heading {
     font-size: 24px;
@@ -288,6 +311,10 @@
 .student-details-table td {
     font-size: 16px;
     color: #555;
+}
+
+.td-link{
+    color: #000;
 }
 
 .student-details-table tbody tr {

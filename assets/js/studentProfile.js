@@ -35,3 +35,15 @@ dropdownLink.addEventListener('click', () => {
 refreshButton.addEventListener('click', function() {
     location.reload();
 });
+
+// Double click on table rows
+const rows = document.querySelectorAll('.student-details-table tbody tr');
+rows.forEach(row => {
+    row.addEventListener('dblclick', function () {
+        // Get the data-href attribute and navigate to the link
+        const link = this.getAttribute('data-href');
+        if (link) {
+            window.location.href = link;
+        }
+    });
+});

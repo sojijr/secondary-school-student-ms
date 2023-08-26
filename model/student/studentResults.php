@@ -23,7 +23,7 @@
                         class="fa fa-chevron-down" id="dropdown-i" aria-hidden="true"></i>
                     <ul class="dropdown-sidebar active">
                         <li><a href="./studentSubjectOffered">Current Subjects Offered</a></li>
-                        <li><a href="./studentResult" class="active">Term Results</a></li>
+                        <li><a href="./studentResults" class="active">Results</a></li>
                     </ul>
             </li>
             <li><a href="#"><i class="fas fa-money-bill"></i> Finance</a></li>
@@ -53,9 +53,9 @@
 
     <div class="student-details-box" id="student-details-box">
         <div class="navbar-box">
-            <h2 class="navbar-heading">Student Result</h2>
+            <h2 class="navbar-heading">Term List</h2>
         </div>
-        <h2 class="student-details-heading">TERM RESULT
+        <h2 class="student-details-heading">TERM LIST
             <div class="table-buttons">
                 <button class="refresh-button" id="refresh-button"><i class="fas fa-sync-alt"></i> Refresh</button>
                 <button class="excel-button"><i class="fas fa-file-excel"></i> Excel</button>
@@ -66,24 +66,27 @@
             <table class="student-details-table">
                 <thead>
                     <tr>
-                        <th>Course ID</th>
-                        <th>Course Title</th>
-                        <th>Score</th>
-                        <th>Grade</th>
+                        <th>Term</th>
+                        <th>Class</th>
+                        <th>Position</th>
+                        <th>Avg (%)</th>
+                        <th>C.Avg (%)</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>101</td>
-                        <td>Mathematics</td>
-                        <td>60</td>
-                        <td>B</td>
+                    <tr data-href="./studentTermResult">
+                        <td><a href="./studentTermResult" class="td-link">First Term</a></td>
+                        <td>JSS 1</td>
+                        <td>2nd</td>
+                        <td>93</td>
+                        <td>93</td>
                     </tr>
-                    <tr>
-                        <td>102</td>
-                        <td>Science</td>
-                        <td>88</td>
-                        <td>A</td>
+                    <tr data-href="./studentTermResult">
+                        <td><a href="./studentTermResult" class="td-link">Second Term</a></td>
+                        <td>JSS 1</td>
+                        <td>1st</td>
+                        <td>94</td>
+                        <td>93.5</td>
                     </tr>
                 </tbody>
             </table>

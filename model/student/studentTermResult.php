@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="../../assets/css/styles.css">
     <link rel="stylesheet" href="../../assets/css/profile.css">
-    <title>Current Subjects Offered</title>
+    <title>Student Result</title>
 </head>
 
 <body>
@@ -22,8 +22,8 @@
                 <a href="#" class="dropdown-link"><i class="fas fa-graduation-cap"></i> Academic Details <i
                         class="fa fa-chevron-down" id="dropdown-i" aria-hidden="true"></i>
                     <ul class="dropdown-sidebar active">
-                        <li><a href="./studentSubjectOffered" class="active">Current Subjects Offered</a></li>
-                        <li><a href="./studentResults">Results</a></li>
+                        <li><a href="./studentSubjectOffered">Current Subjects Offered</a></li>
+                        <li><a href="./studentResults" class="active">Results</a></li>
                     </ul>
             </li>
             <li><a href="#"><i class="fas fa-money-bill"></i> Finance</a></li>
@@ -52,10 +52,15 @@
     </header>
 
     <div class="student-details-box" id="student-details-box">
-        <div class="navbar-box">
-            <h2 class="navbar-heading">Subject List</h2>
+        <div class="navbar-header-box">
+            <a href="./studentResults">
+                <h2 class="navbar-heading">Term List</h2>
+            </a>
         </div>
-        <h2 class="student-details-heading">TERM SUBJECT LIST
+        <div class="navbar-body-box">
+            <h2 class="navbar-heading">Term Result</h2>
+        </div>
+        <h2 class="student-details-heading">TERM RESULT
             <div class="table-buttons">
                 <button class="refresh-button" id="refresh-button"><i class="fas fa-sync-alt"></i> Refresh</button>
                 <button class="excel-button"><i class="fas fa-file-excel"></i> Excel</button>
@@ -68,22 +73,29 @@
                     <tr>
                         <th>Course ID</th>
                         <th>Course Title</th>
+                        <th>Score</th>
+                        <th>Grade</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>101</td>
                         <td>Mathematics</td>
+                        <td>60</td>
+                        <td>B</td>
                     </tr>
                     <tr>
                         <td>102</td>
                         <td>Science</td>
+                        <td>88</td>
+                        <td>A</td>
                     </tr>
                 </tbody>
             </table>
         </div>
 
     </div>
+    <!-- Profile content goes here -->
 
     <script src="../../assets/js/studentProfile.js"></script>
 
