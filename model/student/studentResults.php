@@ -27,7 +27,17 @@
                         <li><a href="./studentResults" class="active"><i class="fas fa-file"></i> Results</a></li>
                     </ul>
             </li>
-            <li><a href="#"><i class="fas fa-money-bill"></i> Finance</a></li>
+            <li>
+                <a href="#" class="finance-dropdown-link"><i class="fas fa-money-bill"></i> Finance <i
+                        class="fa fa-chevron-down" id="dropdown-fi" aria-hidden="true"></i>
+                    <ul class="finance-dropdown-sidebar active">
+                        <li><a href="#"><i class="fas fa-book-open"></i> Finance Statement Offered</a></li>
+                        <li><a href="#"><i class="fas fa-file"></i> Current Charges</a></li>
+                        <li><a href="#"><i class="fas fa-credit-card"></i> Make payment</a></li>
+                        <li><a href="#"><i class="fas fa-file-alt"></i> Financial Clearance</a></li>
+                        <li><a href="#"><i class="fas fa-receipt"></i> Print Receipt</a></li>
+                    </ul>
+            </li>
         </ul>
     </nav>
 

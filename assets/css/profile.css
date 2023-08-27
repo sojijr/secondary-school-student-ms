@@ -127,11 +127,21 @@
     width: 210px;
   }
 
-.dropdown-sidebar {
+.sidebar.finance-sidebar-dropdown {
+    height: 500px;
+    width: 250px;
+}
+
+.sidebar.sidebar-dropdown.finance-sidebar-dropdown {
+    height: 590px;
+    width: 250px;
+}
+
+.dropdown-sidebar, .finance-dropdown-sidebar {
     display: none;
 }
 
-.dropdown-sidebar.active {
+.dropdown-sidebar.active, .finance-dropdown-sidebar.active {
     display: block;
 }
 
